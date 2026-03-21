@@ -37,12 +37,17 @@ La infraestructura diseñada en GNS3 para esta práctica consta de:
 
 ### A. Configuración de Interfaces y Seguridad Local
 Se asignaron IPs estáticas a las interfaces físicas. Se creó un grupo de usuarios (**VPN_Remote_Group**) y un usuario local (`cristopher`) para la autenticación **XAuth**. Se configuró un servidor DHCP interno en la fase de la VPN para la entrega automática de parámetros de red a los clientes remotos.
+
+
 <img width="522" height="203" alt="image" src="https://github.com/user-attachments/assets/0c7472e8-8636-43eb-9159-098750a7bf50" />
 <img width="223" height="153" alt="image" src="https://github.com/user-attachments/assets/d54897d9-cf1e-4bf2-98ce-bf12b9c65c4b" />
 
+
 ### B. Fase 1 y Fase 2 de IPsec (Ajustes de Interoperabilidad)
 Para asegurar la estabilidad del túnel en el entorno virtualizado y cumplir con los requisitos técnicos, se aplicaron los siguientes parámetros:
-* **Algoritmos de Cifrado:** DES y SHA-1 (seleccionados para compatibilidad de licencia y rendimiento).
+* **Algoritmos de Cifrado:** DES y SHA-1 (seleccionados para compatibilidad de licencia y rendimiento).*
+
+  
 <img width="522" height="187" alt="image" src="https://github.com/user-attachments/assets/8bda0cae-3530-4dad-aa9b-9860587fdabb" />
 <img width="517" height="339" alt="image" src="https://github.com/user-attachments/assets/a15c8de8-91cd-49ff-a578-2bec5294ca6e" />
 
@@ -60,12 +65,15 @@ Se implementaron políticas de seguridad para permitir el tráfico desde la inte
 aqui hacemos la configuracion al igual que en nuestro fortigate para evitar que no se pueda conectar
 
 ### autenticacion y fase 1
-<img width="694" height="274" alt="image" src="https://github.com/user-attachments/assets/6b535336-26ba-4507-8718-545005778176" />
+<img width="611" height="441" alt="image" src="https://github.com/user-attachments/assets/ec976789-4f91-46ba-b0fd-94655868f3c9" />
+
 
 ### fase 2
-<img width="694" height="274" alt="image" src="https://github.com/user-attachments/assets/26a9d1f0-a12e-4284-89ee-9fa19486e79c" />
+<img width="605" height="255" alt="image" src="https://github.com/user-attachments/assets/f1d91940-d3e2-4c2f-a5ba-70c1729575c5" />
+
 
 para que funcione debe de haber conexion al isp y completamente
 
 ### conexion al cliente windows
-<img width="694" height="274" alt="image" src="https://github.com/user-attachments/assets/79e48c7c-6200-4624-8752-e468e0c5bc20" />
+<img width="274" height="245" alt="image" src="https://github.com/user-attachments/assets/80decdc3-3df0-4a15-b7e4-467c2e44c183" />
+
