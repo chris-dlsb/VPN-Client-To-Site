@@ -1,4 +1,5 @@
-### Configuración del FortiGate (NGFW)
+### Configuración del FortiGate (NGFW) ###
+
 ## Interfaces de Red
 config system interface
     edit "port1"
